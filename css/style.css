@@ -1,0 +1,33 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --blue: #2b2d42;
+    --gray: #666f7e;
+    --light-gray: #8d99ae;
+}
+
+body {
+    background-color: var(--blue);
+    color: var(--black);
+}
+
+.container-mail {
+    height: 300px;
+    width: 350px;
+    background-color: var(--light-gray);
+    border-radius: 20px;
+}
+
+.btn-mail {
+    border-radius: 8px;
+    border: 0px;
+    padding: 5px 10px;
+    background-color: var(--light-gray);
+    color: var(--black);
+}
+
+.btn-mail:hover {
+    background-color: var(--gray);
+    color: var(--white);
+    transition: 0.3s;
+}

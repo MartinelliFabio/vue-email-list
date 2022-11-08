@@ -11,6 +11,12 @@ const app = createApp({
                 console.log(res.data.response);
                 this.arrayEmail.push(res.data.response);
             })
+        },
+        createArray() {
+            this.arrayEmail.splice(0);
+            for(let i = 0; i < 10; i++) {
+                this.callApi();
+            }
         }
     },
     mounted() {
