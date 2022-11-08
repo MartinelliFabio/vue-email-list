@@ -14,6 +14,14 @@
 
 <div id="app">
 
+    <div class="container">
+        <div v-if="arrayEmail.length <= 10">
+            <div v-for="(mail, index) in arrayEmail">
+                {{mail}}
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <script src="./js/script.js">
